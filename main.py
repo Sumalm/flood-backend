@@ -249,6 +249,9 @@ def predict_flood(location: Location):
     except Exception as e:
         logging.error(f"Server error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+@app.get("/")
+def read_root():
+    return {"message": "FastAPI app is running 🚀"}
 
 # ----------------- Run ------------------
 
