@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+google-auth
+earthengine-api
+tensorflow
+Pillow
+numpy
+python-dotenv
+
